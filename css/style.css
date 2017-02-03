@@ -491,7 +491,10 @@ CLIENTS SECTION
   color: #000;
 
 }
-
+.img-skill{
+  margin-bottom: 53px;
+  margin-left: 139px;
+}
 
 @media screen and (max-width: 991px) {
   #about .about-section .about-item .about-text {
@@ -782,7 +785,7 @@ CLIENTS SECTION
     width: 99%;
   }
 }
-@media screen and (max-width: 670px){
+@media screen and (max-width: 660px){
 .section-header {
     font-size: 25px;
    }
@@ -812,5 +815,13 @@ CLIENTS SECTION
     .pdf-resume{
       font: small-caps 15px 'Raleway', sans-serif;
       margin-left: -70px;
+    }
+    .img-skill{
+    margin-bottom: 25px;
+    margin-left: 13px;
+    width: 277px;
+    }
+    .img-tres{
+      display: none;
     }
 }
